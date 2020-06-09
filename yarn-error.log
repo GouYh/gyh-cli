@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/gouyuheng/.nvm/versions/node/v10.14.2/bin/node /Users/gouyuheng/.nvm/versions/node/v10.14.2/bin/yarn add yeoan-generator
+
+PATH: 
+  /Users/gouyuheng/.nvm/versions/node/v10.14.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/mysql/bin:/Users/gouyuheng/Library/Android/sdk/tools:/Users/gouyuheng/Library/Android/sdk/tools/bin:/Users/gouyuheng/Library/Android/sdk/platform-tools:/Users/gouyuheng/Library/Android/sdk/emulator:/Users/gouyuheng/.rvm/bin
+
+Yarn version: 
+  1.19.2
+
+Node version: 
+  10.14.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/yeoan-generator: Not found
+      at Request.params.callback [as _callback] (/Users/gouyuheng/.nvm/versions/node/v10.14.2/lib/node_modules/yarn/lib/cli.js:66927:18)
+      at Request.self.callback (/Users/gouyuheng/.nvm/versions/node/v10.14.2/lib/node_modules/yarn/lib/cli.js:140586:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/Users/gouyuheng/.nvm/versions/node/v10.14.2/lib/node_modules/yarn/lib/cli.js:141558:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/Users/gouyuheng/.nvm/versions/node/v10.14.2/lib/node_modules/yarn/lib/cli.js:141480:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "generator-sample",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
